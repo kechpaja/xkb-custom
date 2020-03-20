@@ -23,7 +23,7 @@ xkb_symbols "basic" {
 
     key <AD01> {[ q,                Q,          asterisk,       asterisk   ]};
     key <AD02> {[ w,                W,          asterisk,       asterisk   ]};
-    key <AD03> {[ e,                E,          asterisk,       asterisk   ]};
+    key <AD03> {[ e,                E,          0x1000259,      0x100018F  ]};
     key <AD04> {[ r,                R,          asterisk,       asterisk   ]};
     key <AD05> {[ t,                T,          asterisk,       asterisk   ]};
     key <AD06> {[ y,                Y,          asterisk,       asterisk   ]};
@@ -35,7 +35,7 @@ xkb_symbols "basic" {
     key <AD12> {[ dead_caron,       braceright, bracketright,   asterisk   ]};
 
     key <AC01> {[ a,                A,          asterisk,       asterisk   ]};
-    key <AC02> {[ s,                S,          asterisk,       asterisk   ]};
+    key <AC02> {[ s,                S,          ssharp,         0x1001E9E  ]};
     key <AC03> {[ d,                D,          asterisk,       asterisk   ]};
     key <AC04> {[ f,                F,          asterisk,       asterisk   ]};
     key <AC05> {[ g,                G,          asterisk,       asterisk   ]};
