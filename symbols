@@ -7,8 +7,8 @@ xkb_symbols "basic" {
     // Except, of course, for one, since we do need to be able to type that
     // TODO need to figure out how to set AltGr to LSGT? 
 
-    key <TLDE> {[ dead_tilde,  grave,          asciitilde,      asterisk   ]};
-    key <AE01> {[ asterisk,    exclam,         1,              asterisk   ]};
+    key <TLDE> {[ dead_grave,  asciitilde,     grave,      asterisk   ]};
+    key <AE01> {[ dead_tilde,       exclam,    1,              asterisk   ]};
     key <AE02> {[ dead_horn,        at,        2,               asterisk   ]};
     key <AE03> {[ asterisk,    numbersign,     3,              asterisk   ]};
     key <AE04> {[ asterisk,    dollar,         4,              asterisk   ]};
