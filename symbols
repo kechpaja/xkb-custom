@@ -18,7 +18,7 @@ xkb_symbols "basic" {
     key <AE08> {[ asterisk,    asterisk,       8,              asterisk   ]};
     key <AE09> {[ dead_ogonek,      parenleft,  9,              asterisk   ]};
     key <AE10> {[ dead_abovering,   parenright, 0,              asterisk   ]};
-    key <AE11> {[ dead_macron,      underscore, minus,          asterisk   ]};
+    key <AE11> {[ dead_macron,      underscore, minus,          0x1002014  ]}; // M dash
     key <AE12> {[ dead_doubleacute, plus,       equal,          asterisk   ]};
 
     key <AD01> {[ q,                Q,          asterisk,       asterisk   ]};
