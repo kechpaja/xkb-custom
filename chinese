@@ -1,0 +1,61 @@
+default partial alphanumeric_keys modifier_keys
+xkb_symbols "basic" {
+
+    name[Group1]= "Multilingual Latin (kechpaja)";
+
+    // Asterisks will all be filled in with other useful characters eventually
+    // Except, of course, for one, since we do need to be able to type that
+    // TODO need to figure out how to set AltGr to LSGT? 
+
+    key <TLDE> {[ dead_grave,  asciitilde,     grave,      asterisk   ]};
+    key <AE01> {[ dead_tilde,       exclam,    1,              asterisk   ]};
+    key <AE02> {[ dead_horn,        at,        2,               asterisk   ]};
+    key <AE03> {[ asterisk,    numbersign,     3,              asterisk   ]};
+    key <AE04> {[ asterisk,    dollar,         4,              asterisk   ]};
+    key <AE05> {[ asterisk,    percent,        5,              asterisk   ]};
+    key <AE06> {[ asterisk,    asciicircum,    6,              asterisk   ]}; // TODO dead inverted breve
+    key <AE07> {[ dead_hook,        ampersand,  7,              asterisk   ]};
+    key <AE08> {[ asterisk,    asterisk,       8,              asterisk   ]};
+    key <AE09> {[ dead_ogonek,      parenleft,  9,              asterisk   ]};
+    key <AE10> {[ dead_abovering,   parenright, 0,              asterisk   ]};
+    key <AE11> {[ dead_macron,      underscore, minus,          0x1002014  ]}; // M dash
+    key <AE12> {[ dead_doubleacute, plus,       equal,          asterisk   ]};
+
+    key <AD01> {[ q,                Q,          asterisk,       asterisk   ]};
+    key <AD02> {[ w,                W,          asterisk,       asterisk   ]};
+    key <AD03> {[ e,                E,          0x1000259,      0x100018F  ]};
+    key <AD04> {[ r,                R,          asterisk,       asterisk   ]};
+    key <AD05> {[ t,                T,          asterisk,       asterisk   ]};
+    key <AD06> {[ 0x1004E00,        Y,          asterisk,       asterisk   ]}; // 一
+    key <AD07> {[ u,                U,          asterisk,       asterisk   ]};
+    key <AD08> {[ i,                I,          asterisk,       asterisk   ]};
+    key <AD09> {[ o,                O,          asterisk,       asterisk   ]};
+    key <AD10> {[ p,                P,          asterisk,       asterisk   ]};
+    key <AD11> {[ dead_circumflex,  braceleft,  bracketleft,    asterisk   ]};
+    key <AD12> {[ dead_caron,       braceright, bracketright,   asterisk   ]};
+
+    key <AC01> {[ a,                A,          asterisk,       asterisk   ]};
+    key <AC02> {[ 0x100662F,        S,          ssharp,         asterisk   ]}; // 是
+    key <AC03> {[ 0x1007684,        D,          asterisk,       asterisk   ]}; // 的
+    key <AC04> {[ f,                F,          asterisk,       asterisk   ]};
+    key <AC05> {[ g,                G,          asterisk,       asterisk   ]};
+    key <AC06> {[ h,                H,          asterisk,       asterisk   ]};
+    key <AC07> {[ j,                J,          asterisk,       asterisk   ]};
+    key <AC08> {[ k,                K,          asterisk,       asterisk   ]};
+    key <AC09> {[ l,                L,          asterisk,       asterisk   ]};
+    key <AC10> {[ 0x1004E0D,        colon,      semicolon,      asterisk   ]}; // 不
+    key <AC11> {[ dead_acute,       quotedbl,   apostrophe,     asterisk   ]};
+
+    key <AB01> {[ z,                Z,          asterisk,       asterisk   ]};
+    key <AB02> {[ x,                X,          asterisk,       asterisk   ]};
+    key <AB03> {[ c,                C,          asterisk,       asterisk   ]};
+    key <AB04> {[ v,                V,          asterisk,       asterisk   ]};
+    key <AB05> {[ b,                B,          asterisk,       asterisk   ]};
+    key <AB06> {[ n,                N,          asterisk,       asterisk   ]};
+    key <AB07> {[ m,                M,          asterisk,       asterisk   ]};
+    key <AB08> {[ dead_cedilla,     less,       comma,          asterisk   ]}; // Romanian comma on 4th level
+    key <AB09> {[ dead_abovedot,    greater,    period,        dead_belowdot ]};
+    key <AB10> {[ dead_stroke,      question,   slash,         asterisk   ]};
+
+    key <BKSL> {[ dead_breve,       bar,        backslash,     asterisk   ]};
+};
