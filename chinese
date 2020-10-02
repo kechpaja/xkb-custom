@@ -1,11 +1,14 @@
 default partial alphanumeric_keys modifier_keys
 xkb_symbols "basic" {
 
-    name[Group1]= "Multilingual Latin (kechpaja)";
+    name[Group1]= "Huffman Chinese (kechpaja)";
 
-    // Asterisks will all be filled in with other useful characters eventually
-    // Except, of course, for one, since we do need to be able to type that
-    // TODO need to figure out how to set AltGr to LSGT? 
+    // Only the characters on the home row (plus yi1) are actually going to show
+    // up as themselves in normal use. The rest are just here as part of two-key
+    // sequences, which will be defined in the associated XCompose file. I'm
+    // using Chinese characters for both sets because I wanted to avoid adding
+    // compose sequences that might correspond to letter sequences that I might
+    // want to type in some other language. 
 
     key <TLDE> {[ dead_grave,  asciitilde,     grave,      asterisk   ]};
     key <AE01> {[ dead_tilde,       exclam,    1,              asterisk   ]};
@@ -22,29 +25,29 @@ xkb_symbols "basic" {
     key <AE12> {[ dead_doubleacute, plus,       equal,          asterisk   ]};
 
     key <AD01> {[ q,                Q,          asterisk,       asterisk   ]};
-    key <AD02> {[ w,                W,          asterisk,       asterisk   ]};
+    key <AD02> {[ 0x1004EE5,        W,          asterisk,       asterisk   ]}; // (以)
     key <AD03> {[ e,                E,          0x1000259,      0x100018F  ]};
     key <AD04> {[ r,                R,          asterisk,       asterisk   ]};
     key <AD05> {[ t,                T,          asterisk,       asterisk   ]};
     key <AD06> {[ 0x1004E00,        Y,          asterisk,       asterisk   ]}; // 一
     key <AD07> {[ u,                U,          asterisk,       asterisk   ]};
-    key <AD08> {[ i,                I,          asterisk,       asterisk   ]};
-    key <AD09> {[ o,                O,          asterisk,       asterisk   ]};
+    key <AD08> {[ 0x1005927,        I,          asterisk,       asterisk   ]}; // (大)
+    key <AD09> {[ 0x1008981,        O,          asterisk,       asterisk   ]}; // (要)
     key <AD10> {[ p,                P,          asterisk,       asterisk   ]};
-    key <AD11> {[ dead_circumflex,  braceleft,  bracketleft,    asterisk   ]};
+    key <AD11> {[ asterisk,        braceleft,  bracketleft,    asterisk    ]};
     key <AD12> {[ dead_caron,       braceright, bracketright,   asterisk   ]};
 
-    key <AC01> {[ a,                A,          asterisk,       asterisk   ]};
+    key <AC01> {[ 0x1004ED6,        A,          asterisk,       asterisk   ]}; // 他
     key <AC02> {[ 0x100662F,        S,          ssharp,         asterisk   ]}; // 是
     key <AC03> {[ 0x1007684,        D,          asterisk,       asterisk   ]}; // 的
-    key <AC04> {[ f,                F,          asterisk,       asterisk   ]};
-    key <AC05> {[ g,                G,          asterisk,       asterisk   ]};
-    key <AC06> {[ h,                H,          asterisk,       asterisk   ]};
-    key <AC07> {[ j,                J,          asterisk,       asterisk   ]};
-    key <AC08> {[ k,                K,          asterisk,       asterisk   ]};
-    key <AC09> {[ l,                L,          asterisk,       asterisk   ]};
+    key <AC04> {[ 0x1006211,        F,          asterisk,       asterisk   ]}; // 我
+    key <AC05> {[ 0x1004E2A,        G,          asterisk,       asterisk   ]}; // 个
+    key <AC06> {[ 0x1006709,        H,          asterisk,       asterisk   ]}; // 有
+    key <AC07> {[ 0x1008FD9,        0x1009019,  asterisk,       asterisk   ]}; // 这, 這
+    key <AC08> {[ 0x1004EBA,        K,          asterisk,       asterisk   ]}; // 人
+    key <AC09> {[ 0x1004E86,        L,          asterisk,       asterisk   ]}; // 了
     key <AC10> {[ 0x1004E0D,        colon,      semicolon,      asterisk   ]}; // 不
-    key <AC11> {[ dead_acute,       quotedbl,   apostrophe,     asterisk   ]};
+    key <AC11> {[ 0x1005728,        quotedbl,   apostrophe,     asterisk   ]}; // 在
 
     key <AB01> {[ z,                Z,          asterisk,       asterisk   ]};
     key <AB02> {[ x,                X,          asterisk,       asterisk   ]};
