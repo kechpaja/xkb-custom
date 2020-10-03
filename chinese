@@ -10,55 +10,55 @@ xkb_symbols "basic" {
     // compose sequences that might correspond to letter sequences that I might
     // want to type in some other language. 
 
-    key <TLDE> {[ dead_grave,  asciitilde,     grave,      asterisk   ]};
-    key <AE01> {[ dead_tilde,       0x100FF01, 1,              asterisk   ]};
-    key <AE02> {[ dead_horn,        at,        2,               asterisk   ]};
-    key <AE03> {[ asterisk,    numbersign,     3,              asterisk   ]};
-    key <AE04> {[ asterisk,    dollar,         4,              asterisk   ]};
-    key <AE05> {[ asterisk,    percent,        5,              asterisk   ]};
-    key <AE06> {[ asterisk,    asciicircum,    6,              asterisk   ]}; // TODO dead inverted breve
-    key <AE07> {[ dead_hook,        ampersand,  7,              asterisk   ]};
-    key <AE08> {[ asterisk,    asterisk,       8,              asterisk   ]};
-    key <AE09> {[ dead_ogonek,      0x100FF08,  9,              0x100300E  ]};
-    key <AE10> {[ dead_abovering,   0x100FF09,  0,              0x100300F  ]};
-    key <AE11> {[ dead_macron,      underscore, minus,          0x1002014  ]}; // M dash
-    key <AE12> {[ dead_doubleacute, plus,       equal,          asterisk   ]};
+    key <TLDE> {[ asterisk,   0x100FF5E,  grave,      asterisk   ]};
+    key <AE01> {[ asterisk,   0x100FF01,  1,          asterisk   ]};
+    key <AE02> {[ asterisk,   at,         2,          asterisk   ]};
+    key <AE03> {[ asterisk,   numbersign, 3,          asterisk   ]};
+    key <AE04> {[ asterisk,   dollar,     4,          asterisk   ]};
+    key <AE05> {[ asterisk,   percent,    5,          asterisk   ]};
+    key <AE06> {[ asterisk,   asciicircum,6,          asterisk   ]};
+    key <AE07> {[ asterisk,   ampersand,  7,          asterisk   ]};
+    key <AE08> {[ asterisk,   asterisk,   8,          asterisk   ]};
+    key <AE09> {[ asterisk,   0x100FF08,  9,          0x100300E  ]};
+    key <AE10> {[ asterisk,   0x100FF09,  0,          0x100300F  ]};
+    key <AE11> {[ asterisk,   underscore, minus,      0x1002E3A  ]};
+    key <AE12> {[ asterisk,   plus,       equal,      0x10022EF  ]};
 
-    key <AD01> {[ q,                Q,          asterisk,       asterisk   ]};
-    key <AD02> {[ 0x1004EE5,        W,          asterisk,       asterisk   ]}; // (以)
-    key <AD03> {[ e,                E,          0x1000259,      0x100018F  ]};
-    key <AD04> {[ r,                R,          asterisk,       asterisk   ]};
-    key <AD05> {[ t,                T,          asterisk,       asterisk   ]};
-    key <AD06> {[ 0x1004E00,        Y,          asterisk,       asterisk   ]}; // 一
-    key <AD07> {[ u,                U,          asterisk,       asterisk   ]};
-    key <AD08> {[ 0x1005927,        I,          asterisk,       asterisk   ]}; // (大)
-    key <AD09> {[ 0x1008981,        O,          asterisk,       asterisk   ]}; // (要)
-    key <AD10> {[ p,                P,          asterisk,       asterisk   ]};
-    key <AD11> {[ asterisk,         0x1003010,  0x100FF3B,      0x100300C  ]};
-    key <AD12> {[ dead_caron,       0x1003011,  0x100FF3D,      0x100300D  ]};
+    key <AD01> {[ q,          Q,          asterisk,   asterisk   ]};
+    key <AD02> {[ 0x1004EE5,  W,          asterisk,   asterisk   ]}; // (以)
+    key <AD03> {[ e,          E,          0x1000259,  0x100018F  ]};
+    key <AD04> {[ r,          R,          asterisk,   asterisk   ]};
+    key <AD05> {[ t,          T,          asterisk,   asterisk   ]};
+    key <AD06> {[ 0x1004E00,  Y,          asterisk,   asterisk   ]}; // 一
+    key <AD07> {[ u,          U,          asterisk,   asterisk   ]};
+    key <AD08> {[ 0x1005927,  I,          asterisk,   asterisk   ]}; // (大)
+    key <AD09> {[ 0x1008981,  O,          asterisk,   asterisk   ]}; // (要)
+    key <AD10> {[ p,          P,          asterisk,   asterisk   ]};
+    key <AD11> {[ asterisk,   0x1003010,  0x100FF3B,  0x100300C  ]};
+    key <AD12> {[ asterisk,   0x1003011,  0x100FF3D,  0x100300D  ]};
 
-    key <AC01> {[ 0x1004ED6,        A,          asterisk,       asterisk   ]}; // 他
-    key <AC02> {[ 0x100662F,        S,          ssharp,         asterisk   ]}; // 是
-    key <AC03> {[ 0x1007684,        D,          asterisk,       asterisk   ]}; // 的
-    key <AC04> {[ 0x1006211,        F,          asterisk,       asterisk   ]}; // 我
-    key <AC05> {[ 0x1004E2A,        G,          asterisk,       asterisk   ]}; // 个
-    key <AC06> {[ 0x1006709,        H,          asterisk,       asterisk   ]}; // 有
-    key <AC07> {[ 0x1008FD9,        0x1009019,  asterisk,       asterisk   ]}; // 这, 這
-    key <AC08> {[ 0x1004EBA,        K,          asterisk,       asterisk   ]}; // 人
-    key <AC09> {[ 0x1004E86,        L,          asterisk,       asterisk   ]}; // 了
-    key <AC10> {[ 0x1004E0D,        0x100FF1A,  0x100FF1B,      asterisk   ]}; // 不
-    key <AC11> {[ 0x1005728,        quotedbl,   apostrophe,     asterisk   ]}; // 在
+    key <AC01> {[ 0x1004ED6,  A,          asterisk,   asterisk   ]}; // 他
+    key <AC02> {[ 0x100662F,  S,          ssharp,     asterisk   ]}; // 是
+    key <AC03> {[ 0x1007684,  D,          asterisk,   asterisk   ]}; // 的
+    key <AC04> {[ 0x1006211,  F,          asterisk,   asterisk   ]}; // 我
+    key <AC05> {[ 0x1004E2A,  G,          asterisk,   asterisk   ]}; // 个
+    key <AC06> {[ 0x1006709,  H,          asterisk,   asterisk   ]}; // 有
+    key <AC07> {[ 0x1008FD9,  0x1009019,  asterisk,   asterisk   ]}; // 这, 這
+    key <AC08> {[ 0x1004EBA,  K,          asterisk,   asterisk   ]}; // 人
+    key <AC09> {[ 0x1004E86,  L,          asterisk,   asterisk   ]}; // 了
+    key <AC10> {[ 0x1004E0D,  0x100FF1A,  0x100FF1B,  0x100300A  ]}; // 不
+    key <AC11> {[ 0x1005728,  quotedbl,   apostrophe, 0x100300B  ]}; // 在
 
-    key <AB01> {[ z,                Z,          asterisk,       asterisk   ]};
-    key <AB02> {[ x,                X,          asterisk,       asterisk   ]};
-    key <AB03> {[ c,                C,          asterisk,       asterisk   ]};
-    key <AB04> {[ v,                V,          asterisk,       asterisk   ]};
-    key <AB05> {[ b,                B,          asterisk,       asterisk   ]};
-    key <AB06> {[ n,                N,          asterisk,       asterisk   ]};
-    key <AB07> {[ m,                M,          asterisk,       asterisk   ]};
-    key <AB08> {[ dead_cedilla,     less,       0x100FF0C,      asterisk   ]}; // Romanian comma on 4th level
-    key <AB09> {[ dead_abovedot,    greater,    0x1003002,   dead_belowdot ]};
-    key <AB10> {[ dead_stroke,      0x100FF1F,  slash,          asterisk   ]};
+    key <AB01> {[ z,          Z,          asterisk,   asterisk   ]};
+    key <AB02> {[ x,          X,          asterisk,   asterisk   ]};
+    key <AB03> {[ c,          C,          asterisk,   asterisk   ]};
+    key <AB04> {[ v,          V,          asterisk,   asterisk   ]};
+    key <AB05> {[ b,          B,          asterisk,   asterisk   ]};
+    key <AB06> {[ 0x1004F60,  N,          asterisk,   asterisk   ]}; // (你)
+    key <AB07> {[ 0x1004EEC,  M,          asterisk,   asterisk   ]}; // (们)
+    key <AB08> {[ asterisk,   less,       0x100FF0C,  0x1003008  ]};
+    key <AB09> {[ asterisk,   greater,    0x1003002,  0x1002027  ]};
+    key <AB10> {[ asterisk,   0x100FF1F,  slash,      0x1003009  ]};
 
     key <BKSL> {[ dead_breve,       bar,        0x1003001,      asterisk   ]};
 };
