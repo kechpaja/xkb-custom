@@ -11,16 +11,16 @@ xkb_symbols "basic" {
     // want to type in some other language. 
 
     key <TLDE> {[ asterisk,   0x100FF5E,  grave,      asterisk   ]};
-    key <AE01> {[ asterisk,   0x100FF01,  1,          asterisk   ]};
+    key <AE01> {[ 0x1005341,  0x100FF01,  1,          asterisk   ]}; // (十)
     key <AE02> {[ asterisk,   at,         2,          asterisk   ]};
     key <AE03> {[ asterisk,   numbersign, 3,          asterisk   ]};
     key <AE04> {[ asterisk,   dollar,     4,          asterisk   ]};
-    key <AE05> {[ asterisk,   percent,    5,          asterisk   ]};
-    key <AE06> {[ asterisk,   asciicircum,6,          asterisk   ]};
-    key <AE07> {[ asterisk,   ampersand,  7,          asterisk   ]};
-    key <AE08> {[ asterisk,   asterisk,   8,          asterisk   ]};
+    key <AE05> {[ 0x1004E94,  percent,    5,          asterisk   ]}; // (五)
+    key <AE06> {[ 0x100516D,  asciicircum,6,          asterisk   ]}; // (六)
+    key <AE07> {[ 0x1004E03,  ampersand,  7,          asterisk   ]}; // (七)
+    key <AE08> {[ 0x100516B,  asterisk,   8,          asterisk   ]}; // (八)
     key <AE09> {[ 0x1004E5D,  0x100FF08,  9,          0x100300E  ]}; // (九)
-    key <AE10> {[ asterisk,   0x100FF09,  0,          0x100300F  ]};
+    key <AE10> {[ 0x10096F6,  0x100FF09,  0,          0x100300F  ]}; // (零)
     key <AE11> {[ 0x1004E0A,  underscore, minus,      0x1002E3A  ]}; // (上)
     key <AE12> {[ asterisk,   plus,       equal,      0x10022EF  ]};
 
@@ -28,14 +28,14 @@ xkb_symbols "basic" {
     key <AD02> {[ 0x1004EE5,  W,          asterisk,   asterisk   ]}; // (以)
     key <AD03> {[ 0x100548C,  E,          0x1000259,  0x100018F  ]}; // (和)
     key <AD04> {[ r,          R,          asterisk,   asterisk   ]};
-    key <AD05> {[ t,          T,          asterisk,   asterisk   ]};
+    key <AD05> {[ 0x100540C,  T,          asterisk,   asterisk   ]}; // (同)
     key <AD06> {[ 0x1004E00,  Y,          asterisk,   asterisk   ]}; // 一
     key <AD07> {[ 0x1004E8E,  U,          asterisk,   asterisk   ]}; // (于)
     key <AD08> {[ 0x1005927,  I,          asterisk,   asterisk   ]}; // (大)
     key <AD09> {[ 0x1008981,  O,          asterisk,   asterisk   ]}; // (要)
     key <AD10> {[ p,          P,          asterisk,   asterisk   ]};
     key <AD11> {[ 0x1006765,  0x1003010,  0x100FF3B,  0x100300C  ]}; // (来)
-    key <AD12> {[ asterisk,   0x1003011,  0x100FF3D,  0x100300D  ]};
+    key <AD12> {[ 0x1005C11,  0x1003011,  0x100FF3D,  0x100300D  ]}; // (少)
 
     key <AC01> {[ 0x1004ED6,  A,          asterisk,   asterisk   ]}; // 他
     key <AC02> {[ 0x100662F,  S,          ssharp,     asterisk   ]}; // 是
@@ -50,8 +50,8 @@ xkb_symbols "basic" {
     key <AC11> {[ 0x1005728,  quotedbl,   apostrophe, 0x100300B  ]}; // 在
 
     key <AB01> {[ 0x1004E2D,  Z,          asterisk,   asterisk   ]}; // (中)
-    key <AB02> {[ x,          X,          asterisk,   asterisk   ]};
-    key <AB03> {[ c,          C,          asterisk,   asterisk   ]};
+    key <AB02> {[ 0x10053F7,  0x100865F,  asterisk,   asterisk   ]}; // (号, 號)
+    key <AB03> {[ 0x1008336,  C,          asterisk,   asterisk   ]}; // (茶)
     key <AB04> {[ 0x1004E3A,  V,          asterisk,   asterisk   ]}; // (为)
     key <AB05> {[ b,          B,          asterisk,   asterisk   ]};
     key <AB06> {[ 0x1004F60,  N,          asterisk,   asterisk   ]}; // (你)
