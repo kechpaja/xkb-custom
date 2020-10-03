@@ -19,22 +19,22 @@ xkb_symbols "basic" {
     key <AE06> {[ asterisk,   asciicircum,6,          asterisk   ]};
     key <AE07> {[ asterisk,   ampersand,  7,          asterisk   ]};
     key <AE08> {[ asterisk,   asterisk,   8,          asterisk   ]};
-    key <AE09> {[ asterisk,   0x100FF08,  9,          0x100300E  ]};
+    key <AE09> {[ 0x1004E5D,  0x100FF08,  9,          0x100300E  ]}; // (九)
     key <AE10> {[ asterisk,   0x100FF09,  0,          0x100300F  ]};
-    key <AE11> {[ asterisk,   underscore, minus,      0x1002E3A  ]};
+    key <AE11> {[ 0x1004E0A,  underscore, minus,      0x1002E3A  ]}; // (上)
     key <AE12> {[ asterisk,   plus,       equal,      0x10022EF  ]};
 
     key <AD01> {[ q,          Q,          asterisk,   asterisk   ]};
     key <AD02> {[ 0x1004EE5,  W,          asterisk,   asterisk   ]}; // (以)
-    key <AD03> {[ e,          E,          0x1000259,  0x100018F  ]};
+    key <AD03> {[ 0x100548C,  E,          0x1000259,  0x100018F  ]}; // (和)
     key <AD04> {[ r,          R,          asterisk,   asterisk   ]};
     key <AD05> {[ t,          T,          asterisk,   asterisk   ]};
     key <AD06> {[ 0x1004E00,  Y,          asterisk,   asterisk   ]}; // 一
-    key <AD07> {[ u,          U,          asterisk,   asterisk   ]};
+    key <AD07> {[ 0x1004E8E,  U,          asterisk,   asterisk   ]}; // (于)
     key <AD08> {[ 0x1005927,  I,          asterisk,   asterisk   ]}; // (大)
     key <AD09> {[ 0x1008981,  O,          asterisk,   asterisk   ]}; // (要)
     key <AD10> {[ p,          P,          asterisk,   asterisk   ]};
-    key <AD11> {[ asterisk,   0x1003010,  0x100FF3B,  0x100300C  ]};
+    key <AD11> {[ 0x1006765,  0x1003010,  0x100FF3B,  0x100300C  ]}; // (来)
     key <AD12> {[ asterisk,   0x1003011,  0x100FF3D,  0x100300D  ]};
 
     key <AC01> {[ 0x1004ED6,  A,          asterisk,   asterisk   ]}; // 他
@@ -49,10 +49,10 @@ xkb_symbols "basic" {
     key <AC10> {[ 0x1004E0D,  0x100FF1A,  0x100FF1B,  0x100300A  ]}; // 不
     key <AC11> {[ 0x1005728,  quotedbl,   apostrophe, 0x100300B  ]}; // 在
 
-    key <AB01> {[ z,          Z,          asterisk,   asterisk   ]};
+    key <AB01> {[ 0x1004E2D,  Z,          asterisk,   asterisk   ]}; // (中)
     key <AB02> {[ x,          X,          asterisk,   asterisk   ]};
     key <AB03> {[ c,          C,          asterisk,   asterisk   ]};
-    key <AB04> {[ v,          V,          asterisk,   asterisk   ]};
+    key <AB04> {[ 0x1004E3A,  V,          asterisk,   asterisk   ]}; // (为)
     key <AB05> {[ b,          B,          asterisk,   asterisk   ]};
     key <AB06> {[ 0x1004F60,  N,          asterisk,   asterisk   ]}; // (你)
     key <AB07> {[ 0x1004EEC,  M,          asterisk,   asterisk   ]}; // (们)
