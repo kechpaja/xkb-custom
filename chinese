@@ -10,11 +10,11 @@ xkb_symbols "basic" {
     // compose sequences that might correspond to letter sequences that I might
     // want to type in some other language. 
 
-    key <TLDE> {[ asterisk,   0x100FF5E,  grave,      asterisk   ]};
+    key <TLDE> {[ 0x1006E38,  0x100FF5E,  grave,      asterisk   ]}; // (游)
     key <AE01> {[ 0x1005341,  0x100FF01,  1,          asterisk   ]}; // (十)
     key <AE02> {[ 0x1004E8C,  at,         2,          asterisk   ]}; // (二)
-    key <AE03> {[ asterisk,   numbersign, 3,          asterisk   ]};
-    key <AE04> {[ asterisk,   dollar,     4,          asterisk   ]};
+    key <AE03> {[ 0x1004E09,  numbersign, 3,          asterisk   ]}; // (三)
+    key <AE04> {[ 0x10056DB,  dollar,     4,          asterisk   ]}; // (四)
     key <AE05> {[ 0x1004E94,  percent,    5,          asterisk   ]}; // (五)
     key <AE06> {[ 0x100516D,  asciicircum,6,          asterisk   ]}; // (六)
     key <AE07> {[ 0x1004E03,  ampersand,  7,          asterisk   ]}; // (七)
@@ -53,7 +53,7 @@ xkb_symbols "basic" {
     key <AB02> {[ 0x10053F7,  0x100865F,  asterisk,   asterisk   ]}; // (号, 號)
     key <AB03> {[ 0x1008336,  C,          asterisk,   asterisk   ]}; // (茶)
     key <AB04> {[ 0x1004E3A,  V,          asterisk,   asterisk   ]}; // (为)
-    key <AB05> {[ b,          B,          asterisk,   asterisk   ]};
+    key <AB05> {[ 0x1008FB9,  B,          asterisk,   asterisk   ]}; // (边)
     key <AB06> {[ 0x1004F60,  N,          asterisk,   asterisk   ]}; // (你)
     key <AB07> {[ 0x1004EEC,  M,          asterisk,   asterisk   ]}; // (们)
     key <AB08> {[ asterisk,   less,       0x100FF0C,  0x1003008  ]};
