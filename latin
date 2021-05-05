@@ -45,8 +45,8 @@ xkb_symbols "basic" {
     key <AC07> {[ j,             J,            asterisk,          asterisk   ]};
     key <AC08> {[ k,             K,            asterisk,          asterisk   ]};
     key <AC09> {[ l,             L,            dead_acute,        asterisk   ]};
-    key <AC10> {[ 0x10000F6,     colon,        semicolon,         0x10000D6  ]};
-    key <AC11> {[ 0x10000E4,     quotedbl,     apostrophe,        0x10000C4  ]};
+    key <AC10> {[ odiaeresis,    colon,        semicolon,         Odiaeresis ]};
+    key <AC11> {[ adiaeresis,    quotedbl,     apostrophe,        Adiaeresis ]};
 
     key <AB01> {[ z,             Z,            asterisk,          asterisk   ]};
     key <AB02> {[ x,             X,            asterisk,          asterisk   ]};
