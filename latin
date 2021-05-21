@@ -31,7 +31,7 @@ xkb_symbols "basic" {
     key <AD06> {[ y,             Y,            asterisk,          asterisk   ]};
     key <AD07> {[ u,             U,            asterisk,          asterisk   ]};
     key <AD08> {[ i,             I,            asterisk,          asterisk   ]};
-    key <AD09> {[ o,             O,            asterisk,          asterisk   ]};
+    key <AD09> {[ o,             O,            odiaeresis,        Odiaeresis ]};
     key <AD10> {[ p,             P,            asterisk,          asterisk   ]};
     key <AD11> {[ bracketleft,   braceleft,    dead_circumflex,   asterisk   ]};
     key <AD12> {[ bracketright,  braceright,   dead_caron,        asterisk   ]};
@@ -44,9 +44,9 @@ xkb_symbols "basic" {
     key <AC06> {[ h,             H,            asterisk,          asterisk   ]};
     key <AC07> {[ j,             J,            asterisk,          asterisk   ]};
     key <AC08> {[ k,             K,            asterisk,          asterisk   ]};
-    key <AC09> {[ l,             L,            dead_acute,        asterisk   ]};
-    key <AC10> {[ odiaeresis,    colon,        semicolon,         Odiaeresis ]};
-    key <AC11> {[ adiaeresis,    quotedbl,     apostrophe,        Adiaeresis ]};
+    key <AC09> {[ l,             L,            asterisk,          asterisk   ]};
+    key <AC10> {[ adiaeresis,    colon,        semicolon,         Adiaeresis ]};
+    key <AC11> {[ apostrophe,    quotedbl,     dead_acute,        asterisk   ]};
 
     key <AB01> {[ z,             Z,            asterisk,          asterisk   ]};
     key <AB02> {[ x,             X,            asterisk,          asterisk   ]};
