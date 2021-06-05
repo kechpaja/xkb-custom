@@ -36,6 +36,8 @@ xkb_symbols "basic" {
     key <AD11> {[ bracketleft,   braceleft,    dead_circumflex,   asterisk   ]};
     key <AD12> {[ bracketright,  braceright,   dead_caron,        asterisk   ]};
 
+    key <CAPS> {[ adiaeresis,    Adiaeresis,   semicolon,         colon      ]};
+
     key <AC01> {[ a,             A,            asterisk,          asterisk   ]};
     key <AC02> {[ s,             S,            ssharp,            0x1001E9E  ]};
     key <AC03> {[ d,             D,            asterisk,          asterisk   ]};
@@ -45,7 +47,7 @@ xkb_symbols "basic" {
     key <AC07> {[ j,             J,            asterisk,          asterisk   ]};
     key <AC08> {[ k,             K,            asterisk,          asterisk   ]};
     key <AC09> {[ l,             L,            asterisk,          asterisk   ]};
-    key <AC10> {[ adiaeresis,    colon,        semicolon,         Adiaeresis ]};
+    key <AC10> {[ semicolon,     colon,        dead_diaeresis,    asterisk   ]};
     key <AC11> {[ apostrophe,    quotedbl,     dead_acute,        asterisk   ]};
 
     key <AB01> {[ z,             Z,            asterisk,          asterisk   ]};
