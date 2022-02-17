@@ -55,8 +55,8 @@ xkb_symbols "basic" {
     key <AB03> {[ c,             C,            asterisk,          asterisk   ]};
     key <AB04> {[ v,             V,            asterisk,          asterisk   ]};
     key <AB05> {[ b,             B,            asterisk,          asterisk   ]};
-    key <AB06> {[ n,             N,            asterisk,          asterisk   ]};
-    key <AB07> {[ m,             M,            asterisk,          asterisk   ]};
+    key <AB06> {[ n,             N,            ntilde,            Ntilde     ]};
+    key <AB07> {[ m,             M,            egrave,            Egrave     ]};
     key <AB08> {[ comma,         less,         dead_cedilla,      asterisk   ]}; // Romanian comma on 4th level
     key <AB09> {[ period,        greater,      dead_belowdot,     asterisk   ]};
     key <AB10> {[ slash,         question,     dead_stroke,       asterisk   ]};
